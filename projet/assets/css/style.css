@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+:root{
+    --backgroundgradient:linear-gradient(30deg,#012E40,#024959,#3CA6A6);
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#connect:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#connect:active{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+#gradient{
+    background: var(--backgroundgradient);
+}
+footer{
+    background: linear-gradient(30deg,#024959,#3CA6A6);
+}
+#but:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

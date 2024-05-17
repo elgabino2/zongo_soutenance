@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/inscription.css">
+    <script src="./assets/tailwind/tailwind.config.js"></script>
+    <script src="./assets/tailwind/tailwind.js"></script>
+    <title>Document</title>
+</head>
+<body class="flex justify-center items-center">
+    <form action="index.php" method="post" class="h-[98%] w-[95%]">
+    <div class="h-[98%] w-[95%]  flex">
+        <div class="flex-1 bg-[url(./assets/images/client.jpg)] bg-cover bg-center">
+            <div class="w-[55.4rem] has-[4.5rem]  my-[22rem] mx-[2rem]">
+                <h1 class="text-[4.8rem] text-[white] font-semibold">Bienvenue sur la Page d’inscription</h1>
+            </div>
+            <button class="w-[38.5rem] h-[8.3rem] bg-[#012E40] text-[3.6rem] font-bold text-[white] relative top-[-10rem] mx-[10rem]">Se connecter</button>
+        </div>
+        <div class="flex-1 ">
+            <h1 class="text-[4.8rem] font-bold text-[#3CA6A6] mx-[10rem]">Crée votre compte</h1>
+            <div class="h-[80%] w-[80%]  mx-[4rem] my-[4rem]">
+                <label for="name" class="text-[#012E40] text-[3.2rem] font-semibold">Nom</label>
+                <input type="text" name="name" placeholder="User name" class="w-[50rem] h-[6rem] border-[2px] border-[black] text-[3.2rem] text-center bg-[url()]">
+                <label for="name" class="text-[#012E40] text-[3.2rem] font-semibold">Mot de passe</label>
+                <input type="password" name="password" placeholder="Password" class="w-[50rem] h-[6rem] border-[2px] border-[black] text-[3.2rem] text-center">
+                <label for="name" class="text-[#012E40] text-[3.2rem] font-semibold">Email</label>
+                <input type="email" name="email" placeholder="Email" class="w-[50rem] h-[6rem] border-[2px] border-[black] text-[3.2rem] text-center">
+                <input type="file" name="image" id="img">
+                <input type="submit" class="w-[38.5rem] h-[8.3rem] bg-[#3CA6A6] text-[3.6rem] font-bold text-[white] my-[4rem] mx-[6rem]" name="ok">Se connecter</div>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

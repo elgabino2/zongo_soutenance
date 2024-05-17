@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    /* background:linear-gradient(30deg,#F2E3D5,white); */
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+#b{
+     background: linear-gradient(30deg,#012E40,#026773,#024959);
+     
+     /* background: linear-gradient(30deg,#F2E3D5,white); */
+}
+a:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#block:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+footer{
+    background: linear-gradient(30deg,#024959,#3CA6A6);
+}
